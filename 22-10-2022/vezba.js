@@ -7,6 +7,14 @@ if(i % 2 == 0) {
     console.log(i+ "je paran broj");
 }*/
 
+///////////////////////////////
+// A sta ako je broj neparan? :) 
+//////////////////////
+
+
+
+
+
 /*2.Write a program to sum the multiples of 3 and 5 under 1000.
 var a=1000;
 var b= 3;
@@ -41,7 +49,27 @@ for(i = 0; i <= x.length; i++){
     s += x[i]+ "";
 }
 
+/////////////////////////
+// Ovde nisi morao da sabiras sa praznim stringom, radilo bi i bez toga
+//////////////////////////
+
+
+
+
 console.log(s);*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*6.Write a program that prints the elements of the following array.
 var a = [
 
@@ -107,6 +135,10 @@ for(i=0; i<a; i++){
     if(i%5==0 && i %3 !=0){ 
         console.log("Buz");
     }
+    
+///////////////////////////////
+// Ovu proveru gde gledas da li je i%5 == 0 && i%2 == 0 bi trebao da ubacis na drugo mesto. Zbog cega i gde? :) 
+//////////////////////////////////
     if(i%5==0 && i %3 ==0){ 
         console.log("FuzzBuz");
     }
